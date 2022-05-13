@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@700&family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    background: linear-gradient(to right, #f8a5c2, #778beb) ;
+    font-family: 'BIZ UDGothic', sans-serif;
+}
+
+
+.logo{
+    width: 95px;
+}
+/*แถบเมนู*/
+.navbar{
+    font-size: 16px;
+    top: 0;
+    left: 0;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 20px;
+    color: black;
+    transition: 0.3s ease;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link.active
+.navbar i.active{
+    color: #786fa6;
+}
+.nav i{
+    font-size: 1.2rem;
+    padding: 0 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+/*img color*/
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    
+}
+
+.hairstyle select{
+    display: block;
+    padding: 5px 10px;
+}
+
+/*detail*/
+.byt-btn{
+    opacity: 1;
+    transition: 0.3s all;
+}
+
+/*button*/
+button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 13px 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.3s ease;
+}
+button:hover{
+    background-color: #8ba7f5;
+}
+

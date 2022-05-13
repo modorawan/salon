@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@700&family=Lato&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    background: linear-gradient(to right,#f8a5c2,#778beb ) ;
+    font-family: 'BIZ UDGothic', sans-serif;
+}
+
+
+.logo{
+    width: 95px;
+}
+/*แถบเมนู*/
+.navbar{
+    font-size: 16px;
+    top: 0;
+    left: 0;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 20px;
+    color: black;
+    transition: 0.3s ease;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link.active
+.navbar i.active{
+    color: #f089c8;
+}
+.nav i{
+    font-size: 1.2rem;
+    padding: 0 7px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+section{
+    grid-column: 1 / span 8;
+    padding: 1em;
+    margin-top: 10px;
+}
+
+h1{
+    font-family: 'Dosis', sans-serif;  
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.content { 
+    text-align: center; 
+}
+
+.QrCode { 
+    width: 450px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width:850px){
+   .logo {
+       width: 300px;
+   }
+}
+
+.Money {
+    width: 300px;
+    margin: 50px;
+    
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #f089c8;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background-color:lightcoral
+}
